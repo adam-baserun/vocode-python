@@ -276,13 +276,13 @@ files = [
 
 [[package]]
 name = "baserun"
-version = "0.5.4"
+version = "0.5.5"
 description = "Tools for testing, debugging, and evaluating LLM features."
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "baserun-0.5.4-py3-none-any.whl", hash = "sha256:6116dce5bcef49e38245f2fd279f5e45e8893c434d2c03d7bafd306ded838688"},
-    {file = "baserun-0.5.4.tar.gz", hash = "sha256:a99910a22dee91cd7613ad5d23a9e410813bb0be4313beb337bbef59f50e1b4c"},
+    {file = "baserun-0.5.5-py3-none-any.whl", hash = "sha256:595cedf1041d4d2155b55d28b86b7a1ee8a345dbab4d6c00536111019df7a1fa"},
+    {file = "baserun-0.5.5.tar.gz", hash = "sha256:1b9c81a85839e3ff2180347d0b2bfb00bcb5a3cc47992e82934306538ea9b0e3"},
 ]
 
 [package.dependencies]
@@ -3692,4 +3692,4 @@ transcribers = ["google-cloud-speech"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "7f1c1ecb8c68271bdee0e7039b15a5eecd1bf7a7c6cfb548371d68e4b1ba4394"
+content-hash = "49c7ba780df22fa2a58c9fd0113f23bddf7ba38bce8cc8973e95925dc735d49e"

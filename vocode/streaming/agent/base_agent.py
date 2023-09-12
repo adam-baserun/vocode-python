@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import asyncio
-import baserun
 from enum import Enum
 import json
 import logging
@@ -211,8 +210,7 @@ class RespondAgent(BaseAgent[AgentConfigType]):
         agent_span_first = tracer.start_span(
             f"{tracer_name_start}.generate_first"  # type: ignore
         )
-        traced_generate_response = baserun.trace(self.generate_response, {"conversation_id": conversation_id})
-        responses = traced_generate_response(
+        responses = self.generate_response(
             transcription.message,
             is_interrupt=transcription.is_interrupt,
             conversation_id=conversation_id,
